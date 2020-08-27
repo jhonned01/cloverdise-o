@@ -6,7 +6,7 @@ body{
 
 .header1 {
     width: 100%;
-    height: 300em;   
+       
     margin: 0;
     padding: 0;
 
@@ -22,7 +22,7 @@ body{
     background: white;
     flex-wrap: wrap;
     position: fixed;
-
+    z-index: 10;
     
 }
 
@@ -59,58 +59,55 @@ body{
     color: black;
 }
 
-/* header div { 
-    margin: 0;
-    padding: 0;
-    display: contents;
-    
-    width: 100%;
-    height: 4em;
-    position: fixed;
-    background: white;
-    
-} */
 
-
-/* header div .menu1 {
-    display: inline-block;
-    align-content: center;
-    justify-content: center;
-    list-style: none;
-    position: absolute;
-    top: 20px;
-   
-}
-header .menu1 ul li{
-    list-style: none;
-    font-size: 1.3em;
-}
-
-header .menu2 {
-    display: inline-block;
-    align-content: center;
-    justify-content: center;
-    list-style: none;
-    position: absolute;
-    left: 36em;
-    
-}
-
-header .menu2 ul li{
-    list-style: none;
-    font-size: 1.3em;
-    display: flex;
-    
-}
-header .menu2 ul li a{
-display: flex;
-} */
-
-.Encabezdo{
+.encabezado{
     height: 600px;
     width: auto;
     position: relative;
+    border: 10px solid aquamarine;
+    z-index: 2;
 }
-.Encabezdo section img{
-    display: block;
+
+.encabezado div{
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    left: 8%;
+    top: 27%;
+    
+    height: 50%;
 }
+
+.encabezado h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.encabezado h2{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+/* .encabezado  h1{
+    margin: 0;
+    color: white;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    left: 50%;
+    top:4%;
+    font-size: 3em;
+    z-index: 3;
+
+}
+.encabezado h1 p{
+    text-align: center;
+}
+.encabezado  h2 {
+    text-align: center;
+    color: black;
+    z-index: 4;
+} */
